@@ -1,0 +1,209 @@
+html {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Calibri, verdana, arial, sans-serif;
+}
+
+#header {
+    width: 100%;
+    background-color:#ccc;
+    height: 150px;
+    margin: 0;
+    padding: 0;
+    border: none;
+}
+
+#header h1 {
+    vertical-align: middle;
+    line-height: 150px;
+    text-align: center;
+}
+
+#mainnav {
+    background-color: #666;
+    margin: 0;
+    padding: 0;
+}
+
+#mainnav ul {
+    list-style-type: none;
+    margin-left: 10px;
+    margin-top: 0;
+    padding: 5px; 
+}
+
+#mainnav ul li {
+    display: inline;
+    padding: 10px 15px;
+    color: #eeeeee;
+}
+
+#contents {
+    display: table;
+    width: 100%
+}
+
+#lado-esquerdo {
+    float: left;
+    max-width: 65%;
+    min-width: 330px;
+}
+
+#lado-direito {
+    float: left;
+    width: 33%;
+    height: 100%;
+    background-color: #ccc;
+    min-width: 320px;
+    margin: 10px;
+}
+
+#destaque, #programacao, #webdesign, #mais-lidos {
+    background-color: #ccc;
+    margin: 10px;
+    float: left;
+}
+
+
+
+
+#programacao, #webdesign {
+    max-width: 45%;
+    min-height: 300px;
+    min-width: 300px;
+}
+
+#mais-lidos {
+    margin: 10px 15px 15px 15px;
+    min-width: 295px;
+    width: 93%;
+    background-color: #fff;
+}
+
+#imagem-destaque {
+    width: 240px;
+    height: 240px;
+    background-color: #fff;
+    margin: 10px;
+    float: left;
+}
+
+.titulo-blocos {
+    background-color: #666;
+}
+
+.titulo-blocos h2 {
+    color: #fff;
+    font-size: 17px;
+    margin: 0;
+    padding: 5px;
+    text-transform: uppercase;
+}
+
+#descricao h3 {
+    font-weight: bold;
+    color: #fff;
+    font-size: 16px;
+}
+
+#descricao {
+    margin-left: 20px;
+    margin-right: 20px;
+    min-height: 107px;
+}
+
+#descricao p {
+    color: #000;
+    font-size: 12px;
+}
+
+#button-leia-mais {
+    text-align: right;
+}
+
+#leia-mais {
+    margin: 0 20px;
+}
+
+#box {
+    margin: 15px 10px 15px 15px;
+    height: 150px;
+    background-color: #fff;
+    float: left;
+}
+
+#search {
+    margin: 21px 15px;
+}
+
+#input-search {
+    font-size: 15px;
+    padding: 5px;
+    width: 100%;
+    min-width: 300px;
+}
+
+#footer {
+    background: #222;
+}
+
+#footer span {
+    margin: 20px;
+    color: #ccc;
+    line-height: 40px;
+}
+
+#mais-artigos {
+    width: 90%;
+    margin-left:  5%;
+}
+
+#mais-artigos ul {
+    margin-left:  5%;
+    padding: 0;
+}
+
+@media screen and (max-width: 800px) {
+    #lado-esquerdo {
+        max-width: 55%;
+    }
+}
+
+@media screen and (min-width:1024px) and (max-width: 1260px) {
+    .box-resolucao {
+        width: 42.3%;
+        min-width: 135px;
+    }
+}
+
+@media screen and (min-width: 1025px) {
+    #box {
+        width: 43%;
+        min-width: 150px;
+
+    }
+    
+    #webdesign {
+        float: right;
+    }   
+}
+
+@media screen and (min-width:800px) and (max-width:1024px) {
+    #box {
+        width: 42%;
+        min-width: 130px;
+    }
+    
+    #webdesign, #programacao {
+        min-width: 195px;
+    }
+    
+    #descricao {
+        min-height: 232px;
+    }
+}
